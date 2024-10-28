@@ -1,30 +1,43 @@
-# Task 1 Pemograman Web Universitas Teknologi Bandung
+# Task 1 Pemrograman Web Universitas Teknologi Bandung
 
-<p>Deadline : <strong>4 november 2024</strong> </p>
+**Deadline:** **4 November 2024**
 
-## Task Distribution 
-- Header  : Hamid
-- Hero    : Fahan
-- Sidebar : Alfin
-- Footer  : Billy
+## Tugas Pembagian
+| Bagian   | Anggota   |
+|----------|-----------|
+| Header   | Hamid     |
+| Hero     | Fahan     |
+| Sidebar   | Alfin     |
+| Footer   | Billy     |
 
-## Color palette
-- Primary - #0f933f (hijau)
-- Secondary - #2b2660 (biru)
-- foreground - #000 (hitam)
-- background - #ffffff (putih)
+## Palet Warna
 
-## Todos :
+Berikut adalah palet warna yang digunakan dalam proyek ini:
 
-<strong>pastikan  <a href="https://git-scm.com/downloads">git</a> sudah diinstall</strong>
+| Nama      | Kode Warna | Preview  |
+|-----------|------------|----------|
+| **Primary**   | `#0f933f`  | ![#0f933f](https://via.placeholder.com/20/0f933f/000000?text=+)  |
+| **Secondary** | `#2b2660`  | ![#2b2660](https://via.placeholder.com/20/2b2660/000000?text=+)  |
+| **Foreground**| `#000000`  | ![#000000](https://via.placeholder.com/20/000000/FFFFFF?text=+)  |
+| **Background**| `#FFFFFF`  | ![#FFFFFF](https://via.placeholder.com/20/FFFFFF/000000?text=+)  |
 
-1. clone repository ini :
-```bash
-git clone https://github.com/kelompok-3-pemograman-web/tugas-1.git
-```
+## Langkah-Langkah
+
+**Pastikan [Git](https://git-scm.com/downloads) sudah diinstal!**
+
+1. Clone repository ini:
+    ```bash
+    git clone https://github.com/kelompok-3-pemograman-web/tugas-1.git
+    ```
 2. Buat branch baru bebas namanya misal 'section/navbar'
+    contoh :
+    ```bash
+    git checkout -b section/navbar
+    ```
 3. lakukan tugas atau uji cobanya di branch yang telah dibuat
 4. push semua perubahannya
-5. pull request
-
-Semangat !!!
+    contoh :
+    ```bash
+    git push origin section/navbar
+    ``` 
+5. Buat pull request di GitHub.
