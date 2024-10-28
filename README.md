@@ -14,7 +14,8 @@
 - foreground - #000 (hitam)
 - background - #ffffff (putih)
 
-Todos :
+## Todos :
+
 <strong>pastikan  <a href="https://git-scm.com/downloads">git</a> sudah diinstall</strong>
 
 1. clone repository ini :
