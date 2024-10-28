@@ -9,10 +9,10 @@
 - Footer  : Billy
 
 ## Color palette
-Primary - #0f933f (hijau)
-Secondary - #2b2660 (biru)
-foreground - #000 (hitam)
-background - #ffffff (putih)
+- Primary - #0f933f (hijau)
+- Secondary - #2b2660 (biru)
+- foreground - #000 (hitam)
+- background - #ffffff (putih)
 
 Todos :
 <strong>pastikan  <a href="https://git-scm.com/downloads">git</a> sudah diinstall</strong>
