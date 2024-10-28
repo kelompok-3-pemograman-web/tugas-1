@@ -17,7 +17,7 @@ Berikut adalah palet warna yang digunakan dalam proyek ini:
 | Nama      | Kode Warna | Preview  |
 |-----------|------------|----------|
 | **Primary**   | `#0f933f`  | ![#0f933f](https://via.placeholder.com/20/0f933f/000000?text=+)  |
-| **Secondary** | `#2952a0`  | ![#2b2660](https://via.placeholder.com/20/2952a0/000000?text=+)  |
+| **Secondary** | `#2952a0`  | ![#2952a0](https://via.placeholder.com/20/2952a0/000000?text=+)  |
 | **Foreground**| `#000000`  | ![#000000](https://via.placeholder.com/20/000000/FFFFFF?text=+)  |
 | **Background**| `#FFFFFF`  | ![#FFFFFF](https://via.placeholder.com/20/FFFFFF/000000?text=+)  |
 
