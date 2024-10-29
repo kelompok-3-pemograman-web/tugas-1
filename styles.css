@@ -1,0 +1,28 @@
+:root {
+    --primary-color: #0f933f;
+    --secondary-color: #2952a0;
+    --background: #FFFFFF;
+    --foreground: #000000;
+  }
+
+
+body {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+  .navbar, .footer {
+    background-color: var(--primary-color);
+    color: var(--background);
+  }
+  .hero-section {
+    background-color: var(--background);
+  }
+  .card-title, .footer-links a {
+    color: var(--primary-color);
+  }
+  .footer-links a:hover {
+    color: var(--secondary-color);
+  }
+  .footer-links, .footer-copyright {
+    color: var(--background);
+  }
