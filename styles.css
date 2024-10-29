@@ -18,11 +18,12 @@ text-secondary {
   background-color: var(--secondary-color) !important;
 }
 
-.background-white {
-  background-color: var(--background) !important;
-}
 .text-foreground {
   color: var(--foreground) !important;
+}
+
+.background-foreground {
+  background-color: var(--foreground) !important;
 }
 
 
