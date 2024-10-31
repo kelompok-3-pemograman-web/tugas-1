@@ -38,6 +38,12 @@
   --bs-btn-disabled-border-color: #2952a0; /* Same as base color */
 }
 
+.article-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .article-title {
   flex-grow: 0;
   padding: 0.5em var(--bs-card-spacer-x);
@@ -67,4 +73,17 @@
 p.card-text {
   -webkit-line-clamp: 3;
   text-align: justify;
+}
+
+a.article-tag {
+  padding: 0.25em;
+  margin-right: -0.25em;
+  border-radius: 4px;
+  color: var(--secondary-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+a.article-tag:hover {
+  background-color: var(--secondary-color);
+  color: var(--background);
 }
