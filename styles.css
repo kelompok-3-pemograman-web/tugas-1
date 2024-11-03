@@ -12,12 +12,23 @@
 .text-primary {
   color: var(--primary-color) !important;
 }
+
+.text-bg-primary{
+  color: white;
+  background-color: var(--primary-color) !important;
+}
 .bg-secondary {
   background-color: var(--secondary-color) !important;
 }
 .text-secondary {
   color: var(--secondary-color) !important;
 }
+.text-bg-secondary {
+  color:white;
+  background-color: var(--secondary-color) !important;
+}
+
+
 
 body {
   background-color: var(--background);
@@ -34,7 +45,7 @@ body {
 }
 
 .nav-link:hover {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color) !important;
   color: var(--background) !important;
 }
 .footer {
