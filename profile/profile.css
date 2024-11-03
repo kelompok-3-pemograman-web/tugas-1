@@ -5,61 +5,83 @@
   --background: #ffffff;
   --foreground: #000000;
 }
-body, html {
-    height: 100%;
-    margin: 0;
+
+.bg-primary {
+  background-color: var(--primary-color) !important;
 }
 
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.text-bg-primary {
+  color: white;
+  background-color: var(--primary-color) !important;
+}
+.bg-secondary {
+  background-color: var(--secondary-color) !important;
+}
+.text-secondary {
+  color: var(--secondary-color) !important;
+}
+.text-bg-secondary {
+  color: white;
+  background-color: var(--secondary-color) !important;
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
 
 .navbar {
-    background-color: var(--background) !important;
-    color: var(--foreground) !important;   
+  background-color: var(--background) !important;
+  color: var(--foreground) !important;
 }
 
 .navbar-brand {
-    font-weight: bold;
-    cursor: pointer;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .nav-link:hover {
   background-color: var(--primary-color);
-  color: var(--background)!important;
+  color: var(--background) !important;
 }
 .profile-pic {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
 }
 .name {
-    font-size: 32px;
-    font-weight: bold;
-    margin-top: 20px;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 20px;
 }
 .title {
-    font-size: 18px;
-    margin: 10px 0;
+  font-size: 18px;
+  margin: 10px 0;
 }
 .location {
-    font-size: 16px;
-    color: #aaa;
+  font-size: 16px;
+  color: #aaa;
 }
 .description {
-    font-size: 16px;
-    margin: 20px 0;
-    line-height: 1.6;
+  font-size: 16px;
+  margin: 20px 0;
+  line-height: 1.6;
 }
 
 .social-icons a {
-    color: #2952a0;
-    margin: 0 10px;
-    font-size: 24px;
-    text-decoration: none;
+  color: #2952a0;
+  margin: 0 10px;
+  font-size: 24px;
+  text-decoration: none;
 }
 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 .social-icons a:hover {
-    color: #0f933f;
-
+  color: #0f933f;
 }
