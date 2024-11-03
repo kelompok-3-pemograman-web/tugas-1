@@ -1,37 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap Project</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header/Navbar worked by : hamid -->
+    <header>
+      <div
+        class="navbar-brand bg-secondary py-4 px-2 d-flex flex-column align-items-center"
+      >
+        <h1 class="fs-3 mb-0 text-white">Tech Articles</h1>
+        <h3 class="fs-6 text-white">
+          Website yang menyediakan artikel seputar teknologi
+        </h3>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container py-2 rounded-3">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item ">
+                <a class="nav-link text-primary rounded-3" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary rounded-3" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary rounded-3" href="#"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-<!-- Header/Navbar worked by : hamid -->
-<nav class="navbar navbar-expand-lg">
-  <div class="container">
-    <h1 class="navbar-brand cursor-pointer text-primary font-bold" href="#">My Project</h1>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link text-foreground rounded-3" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-foreground rounded-3" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-foreground rounded-3" href="#">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    <!-- Main Content -->
+    <div class="container my-4">
+      <div class="row">
+        <!-- Sidebar worked by : alfin -->
+        <aside class="col-md-3 card border-radius mt-5 p-4">
+          <h4 class="text-bg-success p-2 fs-5 rounded-2 mt-3">Stay In Touch</h4>
+          <div class="d-flex gap-2 align-items-center mt-2">
+            <i class="bi bi-twitter text-secondary fs-4"></i>
+            <span>Twitter Followers</span>
+            <span class="bg-success rounded-2 p-1 text-white"> 130 </span>
+          </div>
+          <div class="d-flex gap-2 align-items-center mt-2">
+            <i class="bi bi-rss-fill fs-4 text-danger"></i>
+            <span>Rss Feed Subcribers</span>
+            <span class="bg-success rounded-2 p-1 text-white"> 80 </span>
+          </div>
+          <h4 class="text-bg-secondary p-2 fs-5 rounded-2 mt-3">Kelompok 3</h4>
+          <ul class="list-group rounded-2">
+            <a href="alfin.html"
+              ><li class="list-group-item">Muhamad Alfin Pratama</li></a
+            >
+            <a href="billy.html"><li class="list-group-item">Billy</li></a>
+            <a href="hamid.html"><li class="list-group-item">Hamid</li></a>
+            <a href="farhan.html"><li class="list-group-item">Farhan</li></a>
+          </ul>
+        </aside>
+        <!-- Hero Section worked by : farhan -->
+        <main class="col-md-9 hero-section">
+          <h2 class="text-primary">Featured Articles</h2>
+          <div class="row">
+            <!-- Kolom -->
+            <div class="col-12 col-lg-6 mb-4">
+              <!-- Artikel -->
+              <article class="card article-card d-flex flex-column h-100">
+                <img
+                  src="https://niagaspace.sgp1.digitaloceanspaces.com/blog/wp-content/uploads/2021/05/18160857/Mengenal-Bahasa-Pemrograman-C.jpg"
+                  class="card-img-top"
+                  alt="Gambar Artikel"
+                />
+
+                <div class="card-body background-primary article-title">
+                  <h2 class="card-title text-white h4 mb-0">
+                    Belajar Bahasa Pemrograman C++
+                  </h2>
+                  <span class="card-number text-white bg-white text-secondary"
+                    >1</span
+                  >
+                </div>
 
 <!-- Main Content -->
 <div class="container my-4">
@@ -65,67 +138,193 @@
       
     </aside>
 
-    <!-- Hero Section worked by : farhan -->
-    <section class="col-md-9 hero-section">
-      <h2 class="text-primary">Featured Articles</h2>
-      <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col">
-          <div class="card">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Article Image">
-            <div class="card-body">
-              <h5 class="card-title">Article Title 1</h5>
-              <p class="card-text">Brief description of the article content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Article Image">
-            <div class="card-body">
-              <h5 class="card-title">Article Title 2</h5>
-              <p class="card-text">Brief description of the article content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Article Image">
-            <div class="card-body">
-              <h5 class="card-title">Article Title 3</h5>
-              <p class="card-text">Brief description of the article content.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-</div>
+                  <!-- Meta Informasi -->
+                  <p class="text-muted mb-1">
+                    <small>
+                      <i class="bi bi-pencil"></i>
+                      <em>Written by:</em>
+                      <a href="#" class="article-tag">Farhan</a>
+                    </small>
+                  </p>
+                  <p class="text-muted mb-2">
+                    <small>
+                      <i class="bi bi-tags"></i>
+                      <em>Tags:</em>
+                      <a href="#" class="article-tag">belajar</a>
+                      <a href="#" class="article-tag">bahasa</a>
+                      <a href="#" class="article-tag">pemrograman</a>
+                      <a href="#" class="article-tag">c++</a>
+                    </small>
+                  </p>
+                  <p class="text-muted">
+                    <small>
+                      <i class="bi bi-calendar"></i>
+                      <em>Published on:</em> 2024-10-31
+                    </small>
+                  </p>
 
-<!-- Footer worked by : billy-->
-<footer class="footer mt-4 py-3">
-  <div class="container">
-    <div class="row">
-      <!-- Recommended Articles or whatever u want to create -->
-      <div class="col-md-6">
-        <h5 class="text-white">Recommended Articles</h5>
-        <ul class="footer-links">
-          <li><a class="text-white" href="#">Recommended Article 1</a></li>
-          <li><a class="text-white" href="#">Recommended Article 2</a></li>
-          <li><a class="text-white" href="#">Recommended Article 3</a></li>
-        </ul>
-      </div>
-      <!-- Additional Content -->
-      <div class="col-md-6">
-        <h5 class="text-white">Additional Content</h5>
-        <p class="text-white">You can add more details here, such as contact info or social media links.</p>
+                  <a
+                    href="article/posts/belajar-bahasa-pemrograman-c++.html"
+                    class="btn custom-btn-secondary"
+                    >Continue Reading</a
+                  >
+                </div>
+              </article>
+            </div>
+            <!-- Kolom -->
+            <div class="col-12 col-lg-6 mb-4">
+              <!-- Artikel -->
+              <article class="card article-card d-flex flex-column h-100">
+                <img
+                  src="https://niagaspace.sgp1.digitaloceanspaces.com/blog/wp-content/uploads/2022/04/09085102/22_4_30_FI_Panduan-Belajar-Python-Dasar-untuk-Pemula-Finalized.jpg"
+                  class="card-img-top"
+                  alt="Gambar Artikel"
+                />
+
+                <div class="card-body background-primary article-title">
+                  <h2 class="card-title text-white h4 mb-0">
+                    Belajar Python Dasar
+                  </h2>
+                  <span class="card-number text-white bg-white text-secondary"
+                    >2</span
+                  >
+                </div>
+
+                <div class="card-body d-flex flex-column flex-grow-1">
+                  <div class="flex-grow-1 mb-4">
+                    <p class="card-text">
+                      Ingin belajar Python, tapi bingung mulai dari mana? Yuk
+                      kepoin artikel ini. Ada panduan lengkap bahasa pemrograman
+                      Python untuk pemula!
+                    </p>
+                  </div>
+
+                  <!-- Meta Informasi -->
+                  <p class="text-muted mb-1">
+                    <small>
+                      <i class="bi bi-pencil"></i>
+                      <em>Written by:</em>
+                      <a href="#" class="article-tag">Farhan</a>
+                    </small>
+                  </p>
+                  <p class="text-muted mb-2">
+                    <small>
+                      <i class="bi bi-tags"></i>
+                      <em>Tags:</em>
+                      <a href="#" class="article-tag">belajar</a>
+                      <a href="#" class="article-tag">bahasa</a>
+                      <a href="#" class="article-tag">pemrograman</a>
+                      <a href="#" class="article-tag">python</a>
+                    </small>
+                  </p>
+                  <p class="text-muted">
+                    <small>
+                      <i class="bi bi-calendar"></i>
+                      <em>Published on:</em> 2024-10-31
+                    </small>
+                  </p>
+
+                  <a
+                    href="article/posts/belajar-python-dasar.html"
+                    class="btn custom-btn-secondary"
+                    >Continue Reading</a
+                  >
+                </div>
+              </article>
+            </div>
+            <!-- Kolom -->
+            <div class="col-12 col-lg-6 mb-4">
+              <!-- Artikel -->
+              <article class="card article-card d-flex flex-column h-100">
+                <img
+                  src="https://niagaspace.sgp1.digitaloceanspaces.com/blog/wp-content/uploads/2022/10/27110828/22_10_20-Web-Programming.jpg"
+                  class="card-img-top"
+                  alt="Gambar Artikel"
+                />
+
+                <div class="card-body background-primary article-title">
+                  <h2 class="card-title text-white h4 mb-0">
+                    Belajar Pemrograman Web
+                  </h2>
+                  <span class="card-number text-white bg-white text-secondary"
+                    >3</span
+                  >
+                </div>
+
+                <div class="card-body d-flex flex-column flex-grow-1">
+                  <div class="flex-grow-1 mb-4">
+                    <p class="card-text">
+                      Anda tertarik untuk belajar web programming tapi bingung
+                      harus mulai dari mana? Tenang saja! Di artikel ini, kami
+                      akan mengajak Anda menyimak panduan lengkap...
+                    </p>
+                  </div>
+
+                  <!-- Meta Informasi -->
+                  <p class="text-muted mb-1">
+                    <small>
+                      <i class="bi bi-pencil"></i>
+                      <em>Written by:</em>
+                      <a href="#" class="article-tag">Farhan</a>
+                    </small>
+                  </p>
+                  <p class="text-muted mb-2">
+                    <small>
+                      <i class="bi bi-tags"></i>
+                      <em>Tags:</em>
+                      <a href="#" class="article-tag">belajar</a>
+                      <a href="#" class="article-tag">pemrograman</a>
+                      <a href="#" class="article-tag">web</a>
+                    </small>
+                  </p>
+                  <p class="text-muted">
+                    <small>
+                      <i class="bi bi-calendar"></i>
+                      <em>Published on:</em> 2024-10-31
+                    </small>
+                  </p>
+
+                  <a
+                    href="article/posts/belajar-pemrograman-web.html"
+                    class="btn custom-btn-secondary"
+                    >Continue Reading</a
+                  >
+                </div>
+              </article>
+            </div>
+          </div>
+        </main>
       </div>
     </div>
-  </div>
-  <div class="text-center mt-3">
-    <p class="text-white">&copy; 2024 All Rights Reserved.</p>
-  </div>
-</footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <!-- Footer worked by : billy-->
+    <footer class="footer mt-4 py-3">
+      <div class="container">
+        <div class="row">
+          <!-- Recommended Articles or whatever u want to create -->
+          <div class="col-md-6">
+            <h5 class="text-white">Recommended Articles</h5>
+            <ul class="footer-links">
+              <li><a class="text-white" href="#">Recommended Article 1</a></li>
+              <li><a class="text-white" href="#">Recommended Article 2</a></li>
+              <li><a class="text-white" href="#">Recommended Article 3</a></li>
+            </ul>
+          </div>
+          <!-- Additional Content -->
+          <div class="col-md-6">
+            <h5 class="text-white">Additional Content</h5>
+            <p class="text-white">
+              You can add more details here, such as contact info or social
+              media links.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-3">
+        <p class="text-white">&copy; 2024 All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
