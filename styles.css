@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 :root {
   --primary-color: #0f933f;
   --secondary-color: #2952a0;
@@ -27,8 +28,6 @@
   color:white;
   background-color: var(--secondary-color) !important;
 }
-
-
 
 body {
   background-color: var(--background);
