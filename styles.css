@@ -5,6 +5,19 @@
   --foreground: #000000;
 }
 
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+.bg-secondary {
+  background-color: var(--secondary-color) !important;
+}
+.text-secondary {
+  color: var(--secondary-color) !important;
+}
 
 body {
   background-color: var(--background);
