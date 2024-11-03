@@ -1,0 +1,67 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+:root {
+  --primary-color: #0f933f;
+  --secondary-color: #2952a0;
+  --background: #ffffff;
+  --foreground: #000000;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: var(--background) !important;
+    color: var(--foreground) !important;   
+}
+
+.navbar-brand {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+  background-color: var(--primary-color);
+  color: var(--background)!important;
+}
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.name {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.location {
+    font-size: 16px;
+    color: #aaa;
+}
+.description {
+    font-size: 16px;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.social-icons a {
+    color: #2952a0;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+.social-icons a:hover {
+    color: #0f933f;
+
+}
