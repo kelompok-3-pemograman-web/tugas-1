@@ -47,10 +47,6 @@ body {
   background-color: var(--primary-color) !important;
   color: var(--background) !important;
 }
-.footer {
-  background-color: var(--primary-color);
-  color: var(--background);
-}
 
 /**
   * ==========================================================
@@ -173,8 +169,48 @@ a.article-tag:hover {
   * ==========================================================
   */
 
-.footer-links a {
+/**
+  * ==========================================================
+  * Footer Styles
+  * ==========================================================
+  */
+
+.footer {
+  background-color: var(--primary-color);
+  color: var(--background);
+}
+
+@media screen and (max-width: 640px) {
+  .footer {
+    padding: 0 2em;
+  }
+}
+
+.footer-title {
+  background-color: var(--background);
+  width: auto;
   color: var(--primary-color);
+  padding: 0.5em 1em;
+  border-radius: 8px;
+}
+
+.footer-title > h5 {
+  margin: 0;
+}
+
+.footer-links {
+  padding: 0;
+}
+
+.footer-links > li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links a {
+  color: var(--background);
+  transition: color 0.3s;
 }
 .footer-links a:hover {
   color: var(--secondary-color);
@@ -182,6 +218,10 @@ a.article-tag:hover {
 .footer-links,
 .footer-copyright {
   color: var(--background);
+}
+
+.footer-about {
+  text-align: justify;
 }
 
 a {
