@@ -9,12 +9,7 @@ body, html {
     height: 100%;
     margin: 0;
 }
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
+
 
 .navbar {
     background-color: var(--background) !important;
@@ -60,6 +55,9 @@ main {
     margin: 0 10px;
     font-size: 24px;
     text-decoration: none;
+}
+a {
+    text-decoration: none !important;
 }
 .social-icons a:hover {
     color: #0f933f;
